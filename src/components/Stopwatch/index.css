@@ -1,0 +1,73 @@
+/* Write CSS here */
+.bg-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+}
+@media screen and (min-width: 768px) {
+  .bg-image {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    height: 100%;
+    width: 90%;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bg-image {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+    height: 100%;
+    width: 50%;
+    background-size: cover;
+  }
+}
+.clock-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+.clock-section h1 {
+  color: #333333;
+}
+.card-clock {
+  width: 250px;
+  box-shadow: 0px 4px 16px 0px #bfbfbfbf;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.header-clock {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+.header-clock p {
+  font-size: 18px;
+  font-weight: 600;
+}
+.buttons {
+  display: flex;
+  gap: 5px;
+}
+.buttons button {
+  width: 3.5rem;
+  height: 1.5rem;
+  border: 0px solid;
+  border-radius: 3px;
+}
+.buttons .btn-1 {
+  background-color: #1db05f;
+  color: #ffffff;
+}
+.buttons .btn-2 {
+  background-color: #eaa800;
+  color: #ffffff;
+}
+.buttons .btn-3 {
+  background-color: #ef0d36;
+  color: #ffffff;
+}
